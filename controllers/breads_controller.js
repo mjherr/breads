@@ -4,8 +4,10 @@ const Bread = require('../models/bread.js')
 
 // INDEX
 breads.get('/', (req, res) => {
-  res.send('This is the index at /breads')
+    res.render('index')
+  // res.send(Bread)
 })
+
 
 // SHOW
 breads.get('/:arrayIndex', (req, res) => {
