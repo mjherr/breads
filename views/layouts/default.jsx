@@ -14,8 +14,7 @@ function Default(html) {
             <header>
                 <h1><a href="/breads">BreadCRUD</a></h1>
             </header>
-      <h1>HTML Rendered!</h1>
-      <div className="container">
+           <div className="container">
         {html.children}
         </div>
       </div>
